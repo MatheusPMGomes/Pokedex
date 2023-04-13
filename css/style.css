@@ -8,10 +8,15 @@
     font-family: 'Oxanium', cursive;
 }
 
+
+body, html {
+    overflow: hidden;
+    position: relative;
+}
+
 body {
     text-align: center;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 main {
